@@ -21,7 +21,9 @@ public class Foyer {
     Long idFoyer;
 
     String nomFoyer;
-    long capaciteFoyer;
+    int capaciteFoyer;
+
+
 
     @OneToOne(mappedBy = "foyer")
     @ToString.Exclude
